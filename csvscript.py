@@ -51,7 +51,7 @@ def dat_manipulation (data):
         normalData = [data["id"],data["lat"],data["lon"],data["mmac"]]
         writer.writerow(fileHeader)
         writer.writerow(normalData)
-        # empty row for seperating the data.
+        # empty row for separating the data.
         writer.writerow("")
         
         writer.writerow(["general_counter", "sub_counter","mac","rssi","router","range"])
